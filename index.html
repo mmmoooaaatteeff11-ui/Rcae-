@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+<div id="game">
+  <canvas id="road"></canvas>
+
+  <header class="hud">
+    <div class="brand">STREET<span>RUSH</span></div>
+    <div class="scoreBox">
+      <small>YOUR SCORE</small>
+      <b id="score">0</b>
+    </div>
+    <button id="pause" class="iconBtn">Ⅱ</button>
+  </header>
+
+  <div class="speed">
+    <b id="speed">120</b>
+    <small>KM/H</small>
+  </div>
+
+  <div class="nitroMeter">
+    <span>⚡ NITRO</span>
+    <div class="meter"><div id="nitroFill"></div></div>
+  </div>
+
+  <div class="bottomControls">
+    <button id="left" class="steer">◀</button>
+    <button id="boost" class="boost">⚡<small>BOOST</small></button>
+    <button id="right" class="steer">▶</button>
+  </div>
+
+  <div id="overlay" class="overlay">
+    <div class="modal">
+      <div class="eyebrow">NIGHT DRIVE / 001</div>
+      <h1>STREET<br><span>RUSH</span></h1>
+      <p id="subtitle">DODGE TRAFFIC. OWN THE NIGHT.</p>
+      <div class="heroCar">🏎️</div>
+      <h2 id="heading">READY TO RACE?</h2>
+      <p id="description">Switch lanes, avoid traffic and hit the nitro.</p>
+      <button id="start">START ENGINE ↗</button>
+      <small class="hint">TOUCH CONTROLS · ENDLESS RACE</small>
+    </div>
+  </div>
+</div>
